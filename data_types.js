@@ -16,3 +16,10 @@ var celsius = 12;
 var fahrenheit = celsius * 1.8 + 32;
 
 console.log(fahrenheit);
+
+/*
+ * Create a string with the name of your favorite food.
+ * The first letter of the string should be capitalized.
+ */
+let favoriteFood = 'Olive';
+console.log(favoriteFood);
