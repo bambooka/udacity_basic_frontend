@@ -32,5 +32,9 @@ console.log(answer);
  * Using escaping for strings
  */
 
-let joke = 'Why couldn\'t the shoes go out and play?\nThey were all "tied" up!'
+let joke = 'Why couldn\'t the shoes go out and play?\nThey were all "tied" up!';
 console.log(joke);
+
+// esczping strings
+let haiku = 'Blowing from the west\n' + 'Fallen leaves gather\n' + 'In the east.'
+console.log(haiku);
