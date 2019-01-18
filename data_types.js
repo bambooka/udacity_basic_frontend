@@ -49,3 +49,14 @@ console.log(thingOne + ' ' + thingTwo);
 
 let fullName = 'Olga Bambooka';
 console.log(fullName);
+
+// Create a variable called bill and assign it the result of 10.25 + 3.99 + 7.15
+// (don't perform the calculation yourself, let JavaScript do it!).
+// Next, create a variable called tip and
+// assign it the result of multiplying bill by a 15% tip rate.
+// Finally, add the bill and tip together and store it into a variable called total.
+
+let bill = 10.25 + 3.99 + 7.15;
+let tip = bill * 0.15;
+let total = bill + tip;
+console.log(total.toFixed(2));
