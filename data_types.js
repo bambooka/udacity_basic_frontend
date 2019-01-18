@@ -73,3 +73,17 @@ let adjective3 = 'entertaining';
 
 let madLib = "The Intro to JavaScript course is " + adjective1 + ". James and Julia are so " + adjective2 +". I cannot wait to work through the rest of this " + adjective3 + " content!";
 console.log(madLib);
+
+/*
+ * 1. Create the following variables:
+ *     - firstName
+ *     - interest
+ *     - hobby
+ * 2. Create a variable named awesomeMessage and set it to an awesome message using
+      string concatenation and the variables above.
+ * 3. Log the awesomeMessage variable to the console.
+ */
+
+let firstName = 'Julia', interest = 'cats', hobby = 'play video games';
+let awesomeMessage = 'Hi, my name is ' + firstName +'. I love ' + interest +'. In my spare time, I like to ' + hobby + '.';
+console.log(awesomeMessage);
