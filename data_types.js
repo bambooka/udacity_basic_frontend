@@ -12,8 +12,8 @@ console.log(4 * 10 + 5 - 3);
  * 2. Log the fahrenheit variable to the console
  */
 
-var celsius = 12;
-var fahrenheit = celsius * 1.8 + 32;
+let celsius = 12;
+let fahrenheit = celsius * 1.8 + 32;
 
 console.log(fahrenheit);
 
@@ -23,3 +23,7 @@ console.log(fahrenheit);
  */
 let favoriteFood = 'Olive';
 console.log(favoriteFood);
+
+// fix the right side of the expression
+let answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
+console.log(answer);
