@@ -27,3 +27,10 @@ console.log(favoriteFood);
 // fix the right side of the expression
 let answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
 console.log(answer);
+
+/*
+ * Using escaping for strings
+ */
+
+let joke = 'Why couldn\'t the shoes go out and play?\nThey were all "tied" up!'
+console.log(joke);
