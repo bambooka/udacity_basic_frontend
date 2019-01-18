@@ -38,3 +38,9 @@ console.log(joke);
 // esczping strings
 let haiku = 'Blowing from the west\n' + 'Fallen leaves gather\n' + 'In the east.'
 console.log(haiku);
+
+// using semicolons
+let thingOne = 'red';
+let thingTwo = 'blue';
+
+console.log(thingOne + ' ' + thingTwo);
