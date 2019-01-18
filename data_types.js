@@ -44,3 +44,8 @@ let thingOne = 'red';
 let thingTwo = 'blue';
 
 console.log(thingOne + ' ' + thingTwo);
+
+// print full name
+
+let fullName = 'Olga Bambooka';
+console.log(fullName);
