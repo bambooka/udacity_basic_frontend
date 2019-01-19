@@ -30,3 +30,25 @@ if ((musicians === 0) || (musicians < 0) ) {
 } else if (musicians > 4) {
     console.log('this is a large group');
 }
+
+/*
+ * write the code to represent checking your balance at the ATM.
+ */
+
+let balance = 325.00;
+let checkBalance = true;
+let isActive = false;
+
+if(checkBalance){
+    if(isActive && balance > 0){
+        console.log("Your balance is $" + balance.toFixed(2) + ".");
+    } else if(!isActive){
+        console.log("Your account is no longer active.");
+    } else if(balance === 0){
+        console.log("Your account is empty.");
+    } else{
+        console.log("Your balance is negative. Please contact bank.");
+    }
+} else{
+    console.log("Thank you. Have a nice day!");
+}
