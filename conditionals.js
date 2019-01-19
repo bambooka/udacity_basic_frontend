@@ -122,3 +122,26 @@ if (shirtWidth <= 18 ) {
 } else {
     console.log('N/A');
 }
+
+/*
+ * Use a series of ternary operator to set the category to one of the following:
+ *   - "herbivore" if an animal eats plants
+ *   - "carnivore" if an animal eats animals
+ *   - "omnivore" if an animal eats plants and animals
+ *   - undefined if an animal doesn't eat plants or animals
+
+ */
+
+let eatsPlants = true;
+let eatsAnimals = false;
+
+let category;
+category = eatsPlants && eatsAnimals ?
+    "omnivore" :
+    eatsPlants ?
+        "herbivore" :
+        eatsAnimals ?
+            "carnivore" :
+            undefined;
+
+console.log(category);
