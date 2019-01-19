@@ -72,3 +72,53 @@ if (flavor === 'strawberry' || vessel === 'cone' || toppings === 'cookies') {
         + flavor + ' ice cream in a ' + vessel
         + ' with ' + toppings + '.')
 }
+
+/*
+* choose clothes for current weather
+*/
+
+let shirtWidth = 18;
+let shirtLength = 28;
+let shirtSleeve = 8.12;
+
+if (shirtWidth <= 18 ) {
+    if (shirtLength <= 28) {
+        if (shirtSleeve <= 8.13) {
+            console.log('S');
+        }
+    }
+} else if ((shirtWidth >= 20) && (shirtWidth < 22)) {
+    if (shirtLength === 29) {
+        if (shirtSleeve === 8.38) {
+            console.log('M');
+        }
+    }
+} else if ((shirtWidth >= 22) && (shirtWidth < 24)) {
+    if (shirtLength === 30) {
+        if ((shirtSleeve >= 8.63) && (shirtSleeve < 8.88)) {
+            console.log('L');
+        }
+    }
+
+} else if ((shirtWidth >= 24) && (shirtWidth < 26)) {
+    if (shirtLength === 31) {
+        if ((shirtSleeve >= 8.88
+            ) && (shirtSleeve < 9.63)) {
+            console.log('XL');
+        }
+    }
+} else if ((shirtWidth >= 26) && (shirtWidth < 28)) {
+    if (shirtLength === 33) {
+        if ((shirtSleeve >= 9.63) && (shirtSleeve < 10.13)) {
+            console.log('2XL');
+        }
+    }
+} else if ((shirtWidth >= 26) && (shirtWidth < 28)) {
+    if (shirtLength === 34) {
+        if (shirtSleeve >= 10.13) {
+            console.log('3XL');
+        }
+    }
+} else {
+    console.log('N/A');
+}
