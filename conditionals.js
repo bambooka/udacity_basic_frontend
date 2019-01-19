@@ -52,3 +52,23 @@ if(checkBalance){
 } else{
     console.log("Thank you. Have a nice day!");
 }
+
+/*
+ * Write a single if statement that logs out the message:
+ *
+ * "I'd like two scoops of __________ ice cream in a __________ with __________."
+ * ...only if:
+ *   - flavor is "vanilla" or "chocolate"
+ *   - vessel is "cone" or "bowl"
+ *   - toppings is "sprinkles" or "peanuts"
+ */
+
+let flavor = 'strawberry';
+let vessel = 'cone';
+let toppings = 'cookies';
+
+if (flavor === 'strawberry' || vessel === 'cone' || toppings === 'cookies') {
+    console.log('I\'d like two scoops of '
+        + flavor + ' ice cream in a ' + vessel
+        + ' with ' + toppings + '.')
+}
